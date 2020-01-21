@@ -1,0 +1,145 @@
+.navbar{
+ background:#1a19208e;
+}
+.nav-link , .navbar-brand{
+ color: #e2d5e3;
+ cursor: pointer;
+}
+.navbar-brand:hover{
+color: #0040a0;
+	}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #000000;
+ color: #0040a0;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#3d1e03 !important;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.header{
+ background-image: url('images/head.jpg') ;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+ color:#9b9a9c ;
+}
+.description p{
+ color:rgba(22, 17, 13, 0.863);
+ font-size: 30px;
+ width: 50%;
+ line-height: 1.5;
+ margin: auto;
+}
+.description button{
+ border:1px  solid rgb(68, 34, 4);
+ background:rgb(59, 29, 3);
+ color:#fff;
+}
+
+.row{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.row h1{
+ color:rgb(54, 29, 7);
+ margin: 2em;
+}
+
+.row span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.row .desc{
+ padding: 2em;
+ border-left:4px solid rgb(49, 22, 4);
+}
+.row .desc h3{
+ color: rgb(58, 29, 3);
+}
+.row .desc p{
+ line-height:2;
+ color:#888;
+}
+.row .desc li{
+ line-height:2;
+ color:#888;
+}
+
+.online{
+ margin: 4em 0;
+ position: relative;  
+}
+.online h1{
+ color:rgb(51, 26, 4);
+ margin: 2em; 
+}
+.online .item{
+ position: relative;
+}
+.online .des{
+ background: rgb(53, 26, 3);
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 93%;
+ transition:.3s ease-in-out;
+}
+
+.xxx{
+	max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel h1{
+ color:rgb(59, 29, 3);
+ margin: 1em;
+}
+.contact-form{
+  margin: 6em 0;
+  position: relative;  
+ }
+ .contact-form h1{
+  padding:2em 1px;
+  color: rgb(116, 170, 214); 
+ }
+ .contact-form .right{
+  max-width: 500px;
+ }
+ .contact-form .right .btn-secondary{
+  background: #1d0e3f;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 10px;
+ }
